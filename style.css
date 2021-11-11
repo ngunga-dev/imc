@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+    --primery-color:#2d3d54;
+    --primery-color-darker:#239199;
+}
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+width: 100%;
+min-height: 100%;
+background-color: #141f36;
+display: grid;
+align-content: center;
+font-family: 'Open sans', sans-serif;
+font-size: 1.3em;
+line-height: 1.5em;
+}
+.container{
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: #2d3d54;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 15%);
+    display: grid;
+    color: #ececf6;
+    
+}
+form input,form label,form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+form input{
+    outline: 1px solid var(--primery-color);
+}
+form button{
+    border: none;
+    background: var(--primery-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+form button:hover{
+    background: var(--primery-color-darker);
+}
+
+.paragrafo-resultado {
+    background: #23995e;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.bad{
+    background: #ee858a;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.footer{
+
+}
